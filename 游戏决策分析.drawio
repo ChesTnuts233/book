@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T07:05:05.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="9byzjqXja9fmfRju_TcX" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T07:19:10.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="sRyoVKkfldr-mDrKM4Gm" version="24.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1696" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1930" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -239,16 +239,6 @@
         <mxCell id="3IvADGGe1elxMChd6s5r-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-92" target="3IvADGGe1elxMChd6s5r-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-92" target="3IvADGGe1elxMChd6s5r-115">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="920" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-99" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IvADGGe1elxMChd6s5r-98">
-          <mxGeometry x="-0.1885" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-92" target="3IvADGGe1elxMChd6s5r-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -257,41 +247,38 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-147" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-92" target="3IvADGGe1elxMChd6s5r-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-92" value="是否有护甲" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="940" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-94" value="受到激光武器攻击" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3IvADGGe1elxMChd6s5r-94" value="受到激光武器攻击&amp;nbsp;&lt;div&gt;异色不扣血&lt;/div&gt;&lt;div&gt;同色扣血&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="890" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-101" value="受到弹幕武器工具" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3IvADGGe1elxMChd6s5r-101" value="受到弹幕武器工具&amp;nbsp;&lt;div&gt;同色直接扣除且受到0.5-1s缓慢效果&lt;/div&gt;&lt;div&gt;异色直接扣除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="1000" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-104">
+        <mxCell id="3IvADGGe1elxMChd6s5r-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-111" target="3IvADGGe1elxMChd6s5r-117">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-100" y="920" as="targetPoint" />
+            <mxPoint x="-570" y="930" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-108" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IvADGGe1elxMChd6s5r-107">
-          <mxGeometry x="0.1295" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-104" value="护甲是否为受击状态" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-60" y="880" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-111" target="3IvADGGe1elxMChd6s5r-112">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-114" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IvADGGe1elxMChd6s5r-113">
           <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-111" value="是否再受到同色攻击" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-180" y="880" width="80" height="80" as="geometry" />
+        <mxCell id="3IvADGGe1elxMChd6s5r-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-111" target="3IvADGGe1elxMChd6s5r-166">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-112" value="护甲破损" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-320" y="880" width="80" height="80" as="geometry" />
+        <mxCell id="3IvADGGe1elxMChd6s5r-168" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IvADGGe1elxMChd6s5r-167">
+          <mxGeometry x="-0.2547" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-111" value="是否再受到同色攻击" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-515" y="890" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-115" target="3IvADGGe1elxMChd6s5r-121">
           <mxGeometry relative="1" as="geometry" />
@@ -310,13 +297,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-115" value="是否同色" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="294" y="880" width="80" height="80" as="geometry" />
+          <mxGeometry x="144" y="890" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-117" value="受到激光武器攻击&lt;div&gt;同色直接扣除一格&lt;/div&gt;&lt;div&gt;异色变为受击状态 且随机变色&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-340" y="1040" width="120" height="60" as="geometry" />
+        <mxCell id="3IvADGGe1elxMChd6s5r-117" value="失去护甲" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-690" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-121" value="绕过护甲 扣除伤害" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="274" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="124" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-124" value="游戏结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1400" y="300" width="120" height="60" as="geometry" />
@@ -351,11 +338,67 @@
         <mxCell id="3IvADGGe1elxMChd6s5r-134" value="玩家不在战斗就可以加血配置血量 有空格（3格）就加到空格 没空格就从0位置覆盖" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1340" y="680" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-137" target="3IvADGGe1elxMChd6s5r-104">
+        <mxCell id="3IvADGGe1elxMChd6s5r-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-137" target="3IvADGGe1elxMChd6s5r-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-137" target="3IvADGGe1elxMChd6s5r-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-137" value="护甲进入受击状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="890" width="120" height="60" as="geometry" />
+        <mxCell id="3IvADGGe1elxMChd6s5r-137" value="异色格 护甲进入保护状态&amp;nbsp;&lt;div&gt;0.5秒后恢复状态&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-146" target="3IvADGGe1elxMChd6s5r-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-151" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IvADGGe1elxMChd6s5r-150">
+          <mxGeometry x="-0.0435" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-146" target="3IvADGGe1elxMChd6s5r-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-156" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IvADGGe1elxMChd6s5r-155">
+          <mxGeometry x="-0.2407" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-146" value="是否是激光武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-154" target="3IvADGGe1elxMChd6s5r-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-154" value="扣血" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-161" target="3IvADGGe1elxMChd6s5r-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-161" value="进入保护状态 当前格随机变色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-390" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-166" value="攻击失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-535" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-166" target="3IvADGGe1elxMChd6s5r-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-172" target="3IvADGGe1elxMChd6s5r-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-176" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IvADGGe1elxMChd6s5r-175">
+          <mxGeometry x="0.4359" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-172" value="护盾是否在保护状态" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-50" y="1030" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3IvADGGe1elxMChd6s5r-174" value="玩家移速提高 射速提高（获得增益buff）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-270" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
