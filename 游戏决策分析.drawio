@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T07:19:10.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="sRyoVKkfldr-mDrKM4Gm" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T07:20:21.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qypKIrDu6uRtvuSJEdOH" version="24.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1930" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3033" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -253,10 +253,10 @@
         <mxCell id="3IvADGGe1elxMChd6s5r-92" value="是否有护甲" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="940" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-94" value="受到激光武器攻击&amp;nbsp;&lt;div&gt;异色不扣血&lt;/div&gt;&lt;div&gt;同色扣血&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3IvADGGe1elxMChd6s5r-94" value="受到激光武器攻击&amp;nbsp;&lt;div&gt;扣血&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="890" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3IvADGGe1elxMChd6s5r-101" value="受到弹幕武器工具&amp;nbsp;&lt;div&gt;同色直接扣除且受到0.5-1s缓慢效果&lt;/div&gt;&lt;div&gt;异色直接扣除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3IvADGGe1elxMChd6s5r-101" value="受到弹幕武器工具&amp;nbsp;&lt;div&gt;同色直接扣除且受到0.5-1s缓慢效果（负面 buff）&lt;/div&gt;&lt;div&gt;异色直接扣除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="1000" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3IvADGGe1elxMChd6s5r-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3IvADGGe1elxMChd6s5r-111" target="3IvADGGe1elxMChd6s5r-117">
